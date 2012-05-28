@@ -21,15 +21,6 @@ h1 {
   font-size: 14px;
   margin: 0; }
   /* line 22, all.css.sass */
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
-  margin: 0; }
-
-/* line 20, all.css.sass */
-.doc {
-  font-size: 14px;
-  margin: 0; }
-  /* line 23, all.css.sass */
   .doc:before, .doc:after {
     opacity: 0.2;
     padding: 6px;
