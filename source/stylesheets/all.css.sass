@@ -3,7 +3,7 @@
 
 body
   background: #d4d4d4 url("../images/background.png")
-  padding-top: 2em
+  padding: 2em 0
   text-align: center
   font-family: sans-serif
 
@@ -31,19 +31,33 @@ h1
     &:hover
       color: #666
 
-$len-diameter: 600px
+$len-diameter: 650px
 .len
   +border-radius(50%)
   +box-sizing(border-box)
   border: 4px solid goldenrod
   display: inline-block
+  background-color: rgba(255,255,255,0.3)
   +box-shadow(0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3))
-  margin: 0 auto
-  padding: 70px
+  padding: 80px
   height: $len-diameter
   width: $len-diameter
+  ul
+    text-align: left
 
 .new_lens
+  background-color: #05c
+  +background-image(linear-gradient(#08C, #05C))
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25)
+  +border-radius(4px)
+  +box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05))
+  color: white
   display: block
+  font-weight: bold
   margin: 0 auto
   margin-top: 2em
+  padding: .5em 1em
+  &:hover
+    +background-image(linear-gradient(darken(#08C, 5%), #05C))
+  &:active
+    +box-shadow(inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05))
