@@ -10,9 +10,9 @@ title: Lenses of game design
   :coffeescript
     $ ->
       randomLens = ->
-        currentLens = $('.len').text()
+        currentLens = $('.len').html()
 
-        len = window.lenses.rand()
+        len = markdown.toHTML(window.lenses.rand())
 
         if currentLens is len
           randomLens()
