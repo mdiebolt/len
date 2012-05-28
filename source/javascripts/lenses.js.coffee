@@ -532,4 +532,209 @@ window.lenses = [
   ● If parallel challenges are too similar, the parallelism offers little benefit. Are my parallel challenges different enough from each other to give players the benefit of variety?
   ● Can my parallel challenges be connected somehow? Is there a way that making progress on one can make it easier to solve the others?
   """
+  """
+  # Lens #51: The Lens of the Pyramid
+  Pyramids fascinate us because they have a singular highest point. To give your puzzle the allure of the ancient pyramids, ask yourself these questions:
+
+  ● Is there a way all the pieces of my puzzle can feed into a singular challenge at the end?
+  ● Big pyramids are often made of little pyramids — can I have a hierarchy of ever more challenging puzzle elements, gradually leading to a final challenge?
+  ● Is the challenge at the top of my pyramid interesting, compelling, and clear? Does it make people want to work in order to get to it?
+  """
+  """
+  # Lens #52: The Lens of the Puzzle
+  Puzzles make the player stop and think. To ensure your puzzles are doing eve- rything you want to shape the player experience, ask yourself these questions:
+
+  ● What are the puzzles in my game?
+  ● Should I have more puzzles, or less? Why?
+  ● Which of the ten puzzle principles apply to each of my puzzles?
+  ● Do I have any incongruous puzzles? How can I better integrate them into the game? (Use Lens #43: The Lens of Elegance to help do this).
+
+  In the last few chapters, we have focused on game internals — it is now time to consider an external element — the interface of the game.?
+  """
+  """
+  # Lens #53: The Lens of Control
+  This lens has uses beyond just examining your interface, since meaningful control is essential for immersive interactivity. To use this lens, ask yourself these questions:
+
+  ● When players use the interface, does it do what is expected? If not, why not?
+  ● Intuitive interfaces give a feeling of control. Is your interface easy to master, or hard to master?
+  ● Do your players feel they have a strong influence over the outcome of the game? If not, how can you change that?
+  ● Feeling powerful  feeling in control. Do your players feel powerful? Can you make them feel more powerful somehow?
+  """
+  """
+  #Lens #54: The Lens of Physical Interface
+  Somehow, the player has a physical interaction with your game. Copying exist- ing physical interfaces is an easy trap to fall into. Use this lens to be sure that your physical interface is well-suited to your game by asking these questions:
+
+  ● What does the player pick up and touch? Can this be made more pleasing?
+  ● How does this map to the actions in the game world? Can the mapping be more direct?
+  ● If you can’t create a custom physical interface, what metaphor are you using when you map the inputs to the game world?
+  ● How does the physical interface look under the Lens of the Toy?
+  ● How does the player see, hear, and touch the world of the game? Is there a way to include a physical output device that will make the world become more real in the player’s imagination? The world of videogames occasionally goes through dry spells where designers feel it is not feasible to create custom physical interfaces. But the marketplace thrives on experimentation and novelty, and suddenly specially crafted physical interfaces, like the Dance Dance Revolution mat, the Guitar Hero guitar, and the Wiimote appear, bringing new life to old gameplay by giv- ing players a new way to interact with old game mechanics.
+  """
+  """
+  # Lens #55: The Lens of Virtual Interface
+  Designing virtual interfaces can be very tricky. Done poorly, they become a wall between the player and the game world. Done well, they amplify the power and control a player has in the game world. Ask these questions to make sure that your virtual interface is enhancing player experience as much as possible:
+
+  ● What information does a player need to receive that isn’t obvious just by looking at the game world?
+  ● When does the player need this information? All the time? Only occasion- ally? Only at the end of a level?
+  ● How can this information be delivered to the player in a way that won’t interfere with the player’s interactions with the game world?
+  """
+  """
+  # Lens #56: The Lens of Transparency
+  The ideal interface becomes invisible to the player letting the player’s imagi- nation be completely immersed in the game world. To ensure invisibility, ask yourself these questions:
+
+  ● What are the players desires? Does the interface let the players do what they want?
+  ● Is the interface simple enough that with practice, players will be able to use it without thinking?
+  ● Do new players find the interface intuitive? If not, can it be made more intui- tive, somehow? Would allowing players to customize the controls help, or hurt?
+  ● Does the interface work well in all situations, or are there cases (near a corner, going very fast, etc.) when it behaves in ways that will confuse the player?
+  ● Can players continue to use the interface well in stressful situations, or do they start fumbling with the controls, or missing crucial information? If so, how can this be improved?
+  ● Does something confuse players about the interface? On which of the six interface arrows is it happening?
+  """
+  """
+  # Lens #57: The Lens of Feedback
+  The feedback a player gets from the game is many things: judgment, reward, instruction, encouragement, and challenge. Use this lens to be sure your feed- back loop is creating the experience you want by asking these questions at every moment in your game:
+
+  ● What do players need to know at this moment?
+  ● What do players want to know at this moment?
+  ● What do you want players to feel at this moment? How can you give feed- back that creates that feeling?
+  ● What do the players want to feel at this moment? Is there an opportunity for them to create a situation where they will feel that?
+  ● What is the player’s goal at this moment? What feedback will help them toward that goal?
+
+  Using this lens takes some effort, since feedback in a game is continuous, but needs to be different in different situations. It takes a lot of mental effort to use this lens in every moment of your game, but it is time well spent, because it will help guarantee that the game is clear, challenging, and rewarding.
+  """
+  """
+  # Lens #58: The Lens of Juiciness
+  To call an interface “juicy” might seem kind of silly — although it is very com- mon to hear an interface with very little feedback described as “dry.” Juicy interfaces are fun the moment you pick them up. To maximize juiciness, ask yourself these questions:
+
+  ● Is my interface giving the player continuous feedback for their actions? If not, why not?
+  ● Is second-order motion created by the actions of the player? Is this motion powerful and interesting?
+  ● Juicy systems reward the player many ways at once. When I give the player a reward, how many ways am I simultaneously rewarding them? Can I find more ways?
+  """
+  """
+  # Lens #59: The Lens of Channels and Dimensions
+  Choosing how to map game information to channels and dimensions is the heart of designing your game interface. Use this lens to make sure you do it thoughtfully and well. Ask yourself these questions:
+
+  ● What data need to travel to and from the player?
+  ● Which data are most important?
+  ● What channels do I have available to transmit this data?
+  ● Which channels are most appropriate for which data? Why?
+  ● Which dimensions are available on the different channels?
+  ● How should I use those dimensions?
+  """
+  """
+  # Lens #60: The Lens of Modes
+  An interface of any complexity is going to require modes. To make sure your modes make the player feel powerful and in control and do not confuse or overwhelm, ask yourself these questions:
+
+  ● What modes do I need in my game? Why?
+  ● Can any modes be collapsed, or combined?
+  ● Are any of the modes overlapping? If so, can I put them on different input channels?
+  ● When the game changes modes, how does the player know that? Can the game communicate the mode change in more than one way?
+  """
+  """
+  # Lens #61: The Lens of the Interest Curve
+  Exactly what captivates the human mind often seems different for every per- son, but the most pleasurable patterns of that captivation are remarkably similar for everyone. To see how a player’s interest in your experience changes over time, ask yourself these questions:
+
+  ● If I draw an interest curve of my experience, how is it generally shaped?
+  ● Does it have a hook?
+  ● Does it have gradually rising interest, punctuated by periods of rest?
+  ● Is there a grand finale, more interesting than everything else?
+  ● What changes would give me a better interest curve?
+  ● Is there a fractal structure to my interest curve? Should there be?
+  ● Do my intuitions about the interest curve match the observed interest of the players? If I ask playtesters to draw an interest curve, what does it look like? Since all players are different, you may find it quite useful to use the Lens of the Interest Curve and Lens #16: The Lens of the Player at the same time, creating a unique interest curve for each of the types of players your game is trying to reach.
+  """
+  """
+  # Lens #62: The Lens of Inherent Interest
+  Some things are just interesting. Use this lens to be sure your game has inher- ently interesting qualities by asking these questions:
+
+  ● What aspects of my game will capture the interest of a player immediately?
+  ● Does my game let the player see or do something they have never seen or done before?
+  ● What base instincts does my game appeal to? Can it appeal to more of them?
+  ● What higher instincts does my game appeal to? Can it appeal to more of those?
+  ● Does dramatic change and anticipation of dramatic change happen in my game? How can it be more dramatic?
+  """
+  """
+  # Lens #63: The Lens of Beauty
+  We love to experience things of great beauty. Use this lens to make your game a joy forever by asking yourself these questions:
+
+  ● What elements make up my game? How can each one can be more beautiful?
+  ● Some things are not beautiful in themselves, but are beautiful in combi- nation. How can the elements of my game be composed in a way that is poetic and beautiful?
+  ● What does beauty mean within the context of my game?
+  """
+  """
+  # Lens #64: The Lens of Projection
+  One key indicator that someone is enjoying an experience is that they have projected their imaginations into it. When they do this, their enjoyment of the experience increases significantly, in a sort of virtuous circle. To examine whether your game is well-suited to induce projection from your players, ask yourself these questions:
+
+  ● What is there in my game that players can relate to? What else can I add?
+  ● What is there in my game that will capture a player’s imagination? What else can I add?
+  ● Are there places in the game that players have always wanted to visit?
+  ● Does the player get to be a character they could imagine themselves to be?
+  ● Are there other characters in the game that the players would be interested to meet (or to spy on)?
+  ● Do the players get to do things that they would like to do in real life, but can’t?
+  ● Is there an activity in the game that once a player starts doing, it is hard to stop?
+  """
+  """
+  # Lens #65: The Lens of the Story Machine
+  A good game is a machine that generates stories when people play it. To make sure your story machine is as productive as possible, ask yourself these questions:
+
+  ● When players have different choices about how to achieve goals, new and different stories can arise. How can I add more of these choices?
+  ● Different conflicts lead to different stories. How can I allow more types of conflict to arise from my game?
+  ● When players can personalize the characters and setting, they will care more about story outcomes, and similar stories can start to feel very differ- ent. How can I let players personalize the story?
+  ● Good stories have good interest curves. Do my rules lead to stories with good interest curves?
+  ● A story is only good if you can tell it. Who can your players tell the story to that will actually care?
+  """
+  """
+  # Lens #66: The Lens of the Obstacle
+  A goal with no obstacles is not worth pursuing. Use this lens to make sure your obstacles are ones that your players will want to overcome.
+
+  ● What is the relationship between the main character and the goal? Why does the character care about it?
+  ● What are the obstacles between the character and the goal?
+  ● Is there an antagonist who is behind the obstacles? What is the relationship between the protagonist and the antagonist?
+  ● Do the obstacles gradually increase in difficulty?
+  ● Some say “The bigger the obstacle, the better the story.” Are your obstacles big enough? Can they be bigger?
+  ● Great stories often involve the protagonist transforming in order to over- come the obstacle. How does your protagonist transform?
+  """
+  """
+  # Lens #67: The Lens of Simplicity and Transcendence
+  To make sure you have the right mix of simplicity and transcendence, ask yourself these questions:
+
+  ● How is my world simpler than the real world? Can it be simpler in other ways?
+  ● What kind of transcendent power do I give to the player? How can I give even more without removing challenge from the game?
+  ● Is my combination of simplicity and transcendence contrived, or does it provide my players with a special kind of wish fulfillment?
+  """
+  """
+  # Lens #68: The Lens of the Hero’s Journey
+  Many heroic stories have similar structure. Use this lens to make sure you haven’t missed out on any elements that might improve your story. Ask your- self these questions:
+
+  ● Does my story have elements that qualify it as a heroic story?
+  ● If so, how does it match up with the structure of the Hero’s Journey?
+  ● Would my story be improved by including more archetypical elements?
+  ● Does my story match this form so closely that it feels hackneyed?
+  """
+  """
+  # Lens #69: The Lens of the Weirdest Thing
+  Having weird things in your story can help give meaning to unusual game mechanics — it can capture the interest of the player, and it can make your world seem special. Too many things that are too weird, though, will render your story puzzling and inaccessible. To make sure your story is the good kind of weird, ask yourself these questions:
+
+  ● What’s the weirdest thing in my story?
+  ● How can I make sure that the weirdest thing doesn’t confuse or alienate the player?
+  ● If there are multiple weird things, should I may be get rid of, or coalesce, some of them?
+  ● If there is nothing weird in my story, is the story still interesting?
+  """
+  """
+  # Lens #70: The Lens of Story
+  Ask yourself these questions:
+
+  ● Does my game really need a story? Why?
+  ● Why will players be interested in this story?
+  ● How does the story support the other parts of the tetrad (aesthetics, tech- nology, gameplay)? Can it do a better job?
+  ● How do the other parts of the tetrad support the story? Can they do a better job?
+  ● How can my story be better?
+  """
+  """
+  # Lens #71: The Lens of Freedom
+  A feeling of freedom is one of the things that separates games from other forms of entertainment. To make sure your players feel as free as possible, ask yourself these questions:
+
+  ● When do my players have freedom of action? Do they feel free at these times?
+  ● When are they constrained? Do they feel constrained at these times?
+  ● Are there any places I can let them feel more free than they do now?
+  ● Are there any places where they are overwhelmed by too much freedom?
+  """
 ]
