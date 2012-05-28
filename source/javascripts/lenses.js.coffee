@@ -343,4 +343,105 @@ window.lenses = [
 
   Fairness can be a slippery subject. There are some cases where one side has an advantage over the other, and the game still seems fair. Sometimes this is so that players of unequal skill can play together, but there can be other reasons. In the game Alien vs. Predator, for example, it is generally recognized that in multiplayer mode, Predators have a significant advantage over the Aliens. Players do not consider it to be unfair, however, because it is in keeping with the Alien vs. Predator story world, and they accept that if they play as an Alien, they will be at a disadvantage and will need to compensate for that with extra skill. It is a badge of pride among players to be able to win the game when playing as an Alien.
   """
+  """
+  # Lens #31: The Lens of Challenge
+  Challenge is at the core of almost all gameplay. You could even say that a game is defined by its goals and its challenges. When examining the chal- lenges in your game, ask yourself these questions:
+
+  - What are the challenges in my game?
+  - Are they too easy, too hard, or just right?
+  - Can my challenges accommodate a wide variety of skill levels?
+  - How does the level of challenge increase as the player succeeds?
+  - Is there enough variety in the challenges?
+  - What is the maximum level of challenge in my game?
+  """
+  """
+  # Lens #32: The Lens of Meaningful Choices
+  When we make meaningful choices, it lets us feel like the things we do matter. To use this lens, ask yourself these questions:
+
+  - What choices am I asking the player to make?
+  - Are they meaningful? How?
+  - Am I giving the player the right number of choices? Would more make them feel more powerful? Would less make the game clearer?
+  - Are there any dominant strategies in my game?
+  """
+  """
+  # Lens #33: The Lens of Triangularity
+  Giving a player the choice to play it safe for a low reward, or to take a risk for a big reward is a great way to make your game interesting and exciting. To use the Lens of Triangularity, ask yourself these questions:
+
+  - Do I have triangularity now? If not, how can I get it?
+  - Is my attempt at triangularity balanced? That is, are the rewards commensurate with the risks?
+
+  Once you start looking for triangularity in games, you will see it everywhere. A dull, monotonous game can quickly become exciting and rewarding when you add a dash of triangularity.
+  """
+  """
+  # Lens #34: The Lens of Skill vs. Chance
+  To help determine how to balance skill and chance in your game, ask yourself these questions:
+
+  - Are my players here to be judged (skill), or to take risks (chance)?
+  - Skill tends to be more serious than chance: Is my game serious or casual?
+  - Are parts of my game tedious? If so, will adding elements of chance enliven them?
+  - Do parts of my game feel too random? If so, will replacing elements of chance with elements of skill or strategy make the players feel more in control?
+  """
+  """
+  # Lens #35: The Lens of Head and Hands
+  Yogi Berra once said “Baseball is 90% mental. The other half is physical.” To make sure your game has a more realistic balance of mental and physical ele- ments, use the Lens of Head and Hands. Ask yourself these questions:
+
+  - Are my players looking for mindless action, or an intellectual challenge?
+  - Would adding more places that involve puzzle-solving in my game make it more interesting?
+  - Are there places where the player can relax their brain, and just play the game without thinking?
+  - Can I give the player a choice — either succeed by exercising a high level of dexterity, or by finding a clever strategy that works with a minimum of physical skill?
+  - If “1” means all physical, and “10” means all mental, what number would my game get?
+  - This lens works particularly well when used in conjunction with Lens #16: Lens of the Player.
+  """
+  """
+  # Lens #36: The Lens of Competition
+  Determining who is most skilled at something is a basic human urge. Games of competition can satisfy that urge. Use this lens to be sure your competitive game makes people want to win it. Ask yourself these questions:
+
+  - Does my game give a fair measurement of player skill?
+  - Do people want to win my game? Why?
+  - Is winning this game something people can be proud of? Why?
+  - Can novices meaningfully compete at my game?
+  - Can experts meaningfully compete at my game?
+  - Can experts generally be sure they will defeat novices?
+  """
+  """
+  # Lens #37: The Lens of Cooperation
+  Collaborating and succeeding as a team is a special pleasure that can create lasting social bonds. Use this lens to study the cooperative aspects of your game. Ask these questions:
+
+  - Cooperation requires communication. Do my players have enough opportu- nity to communicate? How could communication be enhanced?
+  - Are my players friends already, or are they strangers? If they are strangers, can I help them break the ice?
+  - Is there synergy (2 + 2 = 5) or antergy (2 + 2 = 3)when the players work together? Why?
+  - Do all the players have the same role, or do they have special jobs?
+  - Cooperation is greatly enhanced when there is no way an individual can do a task alone. Does my game have tasks like that?
+  - Tasks that force communication inspire cooperation. Do any of my tasks force communication?
+  """
+  """
+  # Lens #38: The Lens of Competition vs. Cooperation
+  Balancing competition and cooperation can be done in many interesting ways. Use this lens to decide whether they are balanced properly in your game. Ask these questions:
+
+  - If “1” is Competition and “10” is Cooperation, what number should my game get?
+  - Can I give players a choice whether to play cooperatively or competitively?
+  - Does my audience prefer competition, cooperation, or a mix?
+  - Is team competition something that makes sense for my game? Is my game more fun with team competition, or with solo competition?
+  """
+  """
+  # Lens #39: The Lens of Time
+  It is said that “timing is everything.” Our goal as designers is to create experi- ences, and experiences are easily spoiled when they are too short or too long. Ask these questions to make yours just the right length:
+
+  - What is it that determines the length of my gameplay activities?
+  - Are my players frustrated because the game ends too early? How can I change that?
+  - Are my players bored because the game goes on for too long? How can I change that?
+  - Setting a time limit can make gameplay more exciting. Is it a good idea for my game?
+  - Would a hierarchy of time structures help my game? That is, several short rounds that together comprise a larger round? Timing can be very difficult to get right, but it can make or break a game. Often, it makes sense to follow the old vaudevillian adage of “Leave ’em want- ing more.”
+  """
+  """
+  # Lens #40: The Lens of Reward
+  Everyone likes to be told they are doing a good job. Ask these questions to determine if your game is giving out the right rewards in the right amounts at the right times:
+
+  - What rewards is my game giving out now? Can it give out others as well?
+  - Are players excited when they get rewards in my game, or are they bored by them? Why?
+  - Getting a reward you don’t understand is like getting no reward at all. Do my players understand the rewards they are getting?
+  - Are the rewards my game gives out too regular? Can they be given out in a more variable way?
+  - How are my rewards related to one another? Is there a way that they could be better connected?
+  - How are my rewards building? Too fast, too slow, or just right? Balancing rewards is different for every game. Not only does a designer have to worry about giving out the right ones, but giving them at the right times in the right amounts. This can only be determined through trial and error — even then, it probably won’t be right for everyone. When trying to balance rewards, it is hard to be perfect — you often have to settle for “good enough.”
+  """
 ]
