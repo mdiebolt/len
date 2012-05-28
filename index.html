@@ -12,12 +12,16 @@
   <body>
     <div class='len'></div>
     <button class='new_lens'>New Lens</button>
+    <button class='longest'>Longest</button>
+    <button class='quoted'>Quoted</button>
     <script type='text/javascript'>
       //<![CDATA[
         (function() {
     
       $(function() {
         var randomLens;
+        window.longest = window.lenses[25];
+        window.quoted = window.lenses[10];
         randomLens = function() {
           var currentLens, len;
           currentLens = $('.len').html();
@@ -29,6 +33,12 @@
           }
         };
         $('.new_lens').on('click', randomLens);
+        $('.longest').on('click', function() {
+          return $('.len').html(markdown.toHTML(window.longest));
+        });
+        $('.quoted').on('click', function() {
+          return $('.len').html(markdown.toHTML(window.quoted));
+        });
         return randomLens();
       });
     
