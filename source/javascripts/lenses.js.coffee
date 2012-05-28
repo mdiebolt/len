@@ -444,4 +444,92 @@ window.lenses = [
   - How are my rewards related to one another? Is there a way that they could be better connected?
   - How are my rewards building? Too fast, too slow, or just right? Balancing rewards is different for every game. Not only does a designer have to worry about giving out the right ones, but giving them at the right times in the right amounts. This can only be determined through trial and error — even then, it probably won’t be right for everyone. When trying to balance rewards, it is hard to be perfect — you often have to settle for “good enough.”
   """
+  """
+  # Lens #41: The Lens of Punishment
+  Punishment must be used delicately, since after all, players are in a game of their own free will. Balanced appropriately, it will give everything in your game more meaning, and players will have a real sense of pride when they succeed at your game. To examine the punishment in your game, ask yourself these questions:
+
+  - What are the punishments in my game?
+  - Why am I punishing the players? What do I hope to achieve by it?
+  - Do my punishments seem fair to the players? Why or why not?
+  - Is there a way to turn these punishments into rewards and get the same, or a better effect?
+  - Are my strong punishments balanced against commensurately strong rewards?
+  """
+  """
+  # Lens #42: The Lens of Simplicity/Complexity
+  Striking the right balance between simplicity and complexity is difficult and must be done for the right reasons. Use this lens to help your game become one in which meaningful complexity arises out of a simple system. Ask your- self these questions:
+
+  - What elements of innate complexity do I have in my game?
+  - Is there a way this innate complexity could be turned into emergent complexity?
+  - Do elements of emergent complexity arise from my game? If not, why not?
+  - Are there elements of my game that are too simple?
+  """
+  """
+  # Lens #43: The Lens of Elegance
+  Most “classic games” are considered to be masterpieces of elegance. Use this lens to make your game as elegant as possible. Ask yourself these questions:
+
+  ● What are the elements of my game?
+  ● What are the purposes of each element? Count these up to give the element an “elegance rating.”
+  ● For elements with only one or two purposes, can some of these be com- bined into each other, or removed altogether?
+  ● For elements with several purposes, is it possible for them to take on even more?
+  """
+  """
+  # Lens #44: The Lens of Character
+  Elegance and character are opposites. They are like miniature versions of sim- plicity and complexity, and must be kept in balance. To make sure your game has lovable, defining quirks, ask yourself these questions:
+
+  ● Is there anything strange in my game that players talk about excitedly?
+  ● Does my game have funny qualities that make it unique?
+  ● Does my game have flaws that players like?
+  """
+  """
+  # Lens #45: The Lens of Imagination
+  All games have some element of imagination and some element of connection to reality. Use this lens to help find the balance between detail and imagina- tion. Ask yourself these questions:
+
+  ● What must the player understand to play my game?
+  ● Can some element of imagination help them understand that better?
+  ● What high-quality, realistic details can we provide in this game?
+  ● What details would be low quality if we provided them? Can imagination fill the gap instead?
+  ● Can I give details that the imagination will be able to reuse again and again?
+  ● What details I provide inspire imagination?
+  ● What details I provide stifle imagination?
+  """
+  """
+  # Lens #46: The Lens of Economy
+  Giving a game an economy can give it surprising depth and a life all its own. But like all living things, it can be difficult to control. Use this lens to keep your economy in balance:
+
+  ● How can my players earn money? Should there be other ways?
+  ● What can my players buy? Why?
+  ● Is money too easy to get? Too hard? How can I change this?
+  ● Are choices about earning and spending meaningful ones?
+  ● Is a universal currency a good idea in my game, or should there be special- ized currencies?
+  """
+  """
+  # Lens #47: The Lens of Balance
+  There are many types of game balance, and each is important. However, it is easy to get lost in the details and forget the big picture. Use this simple lens to get out of the mire, and ask yourself the only important question:
+
+  ● Does my game feel right? Why or why not?
+  """
+  """
+  # Lens #48: The Lens of Accessibility
+  When you present a puzzle to players (or a game of any kind), they should be able to clearly visualize what their first few steps would be. Ask yourself these questions:
+
+  ● How will players know how to begin solving my puzzle, or playing my game? Do I need to explain it, or is it self-evident?
+  ● Does my puzzle or game act like something they have seen before? If it does, how can I draw attention to that similarity. If it does not, how can I make them understand how it does behave?
+  ● Does my puzzle or game draw people in, and make them want to touch it and manipulate it? If not, how I can I change it so that it does?
+  """
+  """
+  # Lens #49: The Lens of Visible Progress
+  Players need to see that they are making progress when solving a difficult prob- lem. To make sure they are getting this feedback, ask yourself these questions:
+
+  ● What does it mean to make progress in my game or puzzle?
+  ● Is there enough progress in my game? Is there a way I can add more interim steps of progressive success?
+  ● What progress is visible, and what progress is hidden? Can I find a way to reveal what is hidden?
+  """
+  """
+  # Lens #50: The Lens of Parallelism
+  Parallelism in your puzzle brings parallel benefits to the player’s experience. To use this lens, ask yourself these questions:
+
+  ● Are there bottlenecks in my design where players are unable to proceed if they cannot solve a particular challenge? If so, can I add parallel challenges for a player to work on when this challenge stumps them?
+  ● If parallel challenges are too similar, the parallelism offers little benefit. Are my parallel challenges different enough from each other to give players the benefit of variety?
+  ● Can my parallel challenges be connected somehow? Is there a way that making progress on one can make it easier to solve the others?
+  """
 ]
