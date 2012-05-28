@@ -2,23 +2,21 @@
 title: Lenses of game design
 ---
 
-.welcome
-  %h1 Middleman is Watching
-  .len
-  %button.new_lens New Lens
+.len
+%button.new_lens New Lens
 
-  :coffeescript
-    $ ->
-      randomLens = ->
-        currentLens = $('.len').html()
+:coffeescript
+  $ ->
+    randomLens = ->
+      currentLens = $('.len').html()
 
-        len = markdown.toHTML(window.lenses.rand())
+      len = markdown.toHTML(window.lenses.rand())
 
-        if currentLens is len
-          randomLens()
-        else
-          $('.len').html(len)
+      if currentLens is len
+        randomLens()
+      else
+        $('.len').html(len)
 
-      $('.new_lens').on 'click', randomLens
+    $('.new_lens').on 'click', randomLens
 
-      randomLens()
+    randomLens()
