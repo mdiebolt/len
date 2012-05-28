@@ -4,14 +4,37 @@
     <meta charset='utf-8' />
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
     <title>Lenses of game design</title>
-    <link type="text/css" media="screen" rel="stylesheet" href="/len/stylesheets/normalize.css" />
-    <link type="text/css" media="screen" rel="stylesheet" href="/len/stylesheets/all.css" />
-    <script type="text/javascript" src="/len/javascripts/all.js"></script>
+    <link href="/len/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/len/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/len/javascripts/all.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class='welcome'>
-      <h1>Middleman is Watching</h1>
-      <p class='doc'><a href="http://middlemanapp.com/">Read Online Documentation</a></p>
-    </div>
+    <div class='len'></div>
+    <button class='new_lens'>New Lens</button>
+    <script type='text/javascript'>
+      //<![CDATA[
+        (function() {
+    
+      $(function() {
+        var randomLens;
+        randomLens = function() {
+          var currentLens, len;
+          currentLens = $('.len').html();
+          len = markdown.toHTML(window.lenses.rand());
+          if (currentLens === len) {
+            return randomLens();
+          } else {
+            return $('.len').html(len);
+          }
+        };
+        $('.new_lens').on('click', randomLens);
+        return randomLens();
+      });
+    
+    }).call(this);
+    
+      //]]>
+    </script>
   </body>
 </html>
