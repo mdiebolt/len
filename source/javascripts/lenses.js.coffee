@@ -213,4 +213,323 @@ window.lenses = [
   - Do they care about the judgment?
   - Does the judgment make them want to improve?
   """
+  """
+  # Lens #21: The Lens of Functional Space
+  To use this lens, think about the space in which your game really takes place when all surface elements are stripped away.
+
+  Ask yourself these questions:
+
+  - Is the space of this game discrete or continuous?
+  - How many dimensions does it have?
+  - What are the boundaries of the space?
+  - Are there sub-spaces? How are they connected?
+  - Is there more than one useful way to abstractly model the space of this game?
+  """
+  """
+  # Lens #22: The Lens of Dynamic State
+  To use this lens, think about what information changes during your game, and who is aware of it. Ask yourself these questions:
+
+  - What are the objects in my game?
+  - What are the attributes of the objects?
+  - What are the possible states for each attribute? What triggers the state changes for each attribute?
+  - What state is known by the game only?
+  - What state is known by all players?
+  - What state is known by some, or only one player?
+  - Would changing who knows what state improve my game in some way?
+
+  Game playing is decision making. Decisions are made based on information. Deciding the different attributes, their states, and who knows about them is core to the mechanics of your game. Small changes to who knows what infor- mation can radically change a game, sometimes for the better, sometimes for the worse. Who knows about what attributes can even change over the course of a game — a great way to create drama in your game is to make an impor- tant piece of private information suddenly become public.
+  """
+  """
+  # Lens #23: The Lens of Emergence
+  To make sure your game has interesting qualities of emergence, ask yourself these questions:
+
+  - How many verbs do my players have?
+  - How many objects can each verb act on?
+  - How many ways can players achieve their goals?
+  - How many subjects do the players control?
+  - How do side effects change constraints?
+  """
+  """
+  # Lens #24: The Lens of Action
+  To use this lens, think about what your players can do and what they can’t, and why.
+
+  Ask yourself these questions:
+
+  - What are the operational actions in my game?
+  - What are the resultant actions?
+  - What resultant actions would I like to see? How can I change my game in order to make those possible?
+  - Am I happy with the ratio of resultant to operational actions?
+  - What actions do players wish they could do in my game that they cannot? Can I somehow enable these, either as operational or resultant actions?
+
+  A game without actions is like a sentence without verbs — nothing happens. Deciding the actions in your game will be the most fundamental decision you can make as a game designer. Tiny changes to these actions will have tre- mendous ripple effects with the possibility of either creating marvelous emer- gent gameplay or making a game that is predictable and tedious. Choose your actions carefully, and learn to listen to your game and your players to learn what is made possible by your choices.
+  """
+  """
+  # Lens #25: The Lens of Goals
+  To ensure the goals of your game are appropriate and well-balanced, ask your- self these questions:
+
+  - What is the ultimate goal of my game?
+  - Is that goal clear to players?
+  - If there is a series of goals, do the players understand that?
+  - Are the different goals related to each other in a meaningful way?
+  - Are my goals concrete, achievable, and rewarding?
+  - Do I have a good balance of short- and long-term goals?
+  - Do players have a chance to decide on their own goals?
+  """
+  """
+  # Lens #26: The Lens of Rules
+  To use this lens, look deep into your game, until you can make out its most basic structure. Ask yourself these questions:
+
+  - What are the foundational rules of my game? How do these differ from the operational rules?
+  - Are there “laws” or “house rules” that are forming as the game develops? Should these be incorporated into my game directly?
+  - Are there different modes in my game? Do these modes make things sim- pler, or more complex? Would the game be better with fewer modes? More modes?
+  - Who enforces the rules?
+  - Are the rules easy to understand, or is there confusion about them? If there is confusion, should I fix it by changing the rules or by explaining them more clearly?
+
+  There is a common misconception that designers make games by sitting down and writing a set of rules. This usually isn’t how it happens at all. A game’s rules are arrived at gradually and experimentally. The designer’s mind gener- ally works in the domain of “operational rules,” occasionally switching to the perspective of “foundational rules” when thinking about how to change or improve the game. The “written rules” usually come toward the end, once the game is playable. Part of the designer’s job is to make sure there are rules that cover every circumstance. Be sure to take careful notes as you playtest, because it is during these tests that holes in your rules will appear — if you just patch them quickly and don’t make a note, the same hole will just show up again later. A game is its rules — give them the time and consideration that they deserve.
+  """
+  """
+  # Lens #27: The Lens of Skill
+  To use this lens, stop looking at your game, and start looking at the skills you are asking of your players.
+
+  Ask yourself these questions:
+
+  - What skills does my game require from the player?
+  - Are there categories of skill that this game is missing?
+  - Which skills are dominant?
+  - Are these skills creating the experience I want?
+  - Are some players much better at these skills than others? Does this make the game feel unfair?
+  - Can players improve their skills with practice?
+  - Does this game demand the right level of skill?
+
+  Exercising skills can be a joyful thing — it is one of the reasons that people love games. Of course, it is only joyful if the skills are interesting and reward- ing, and if the challenge level strikes that ideal balance between “too easy” and “too hard.” Even dull skills (such as pushing buttons) can be made more interesting by dressing them up as virtual skills and providing the right level of challenge. Use this lens as a window into the experience the player is having. Because skills do so much to define experience, the Lens of Skill works quite well in conjunction with Lens #1: The Lens of Essential Experience.
+  """
+  """
+  # Lens #28: The Lens of Expected Value
+  To use this lens, think about the chance of different events occurring in your game, and what those mean to your player.
+
+  Ask yourself these questions:
+
+  - What is the actual chance of a certain event occurring?
+  - What is the perceived chance?
+  - What value does the outcome of that event have? Can the value be quanti- fied? Are there intangible aspects of value that I am not considering?
+  - Each action a player can take has a different expected value when I add up all the possible outcomes. Am I happy with these values? Do they give the player interesting choices? Are they too rewarding, or too punishing?
+
+  Expected value is one of your most valuable tools for analyzing game balance. The challenge of using it is finding a way to numerically represent everything that can happen to a player. Gaining and losing money is easy to represent. But what is the numerical value of “boots of speed” that let you run faster, or a “warp gate” that lets you skip two levels? These are difficult to quantify per- fectly — but that doesn’t mean you can’t take a guess. As we’ll see in Chapter 11, as you go through multiple iterations of game testing, tweaking parameters and values in your game, you will also be tweaking your own estimations of the values of different outcomes. Quantifying these less tangible elements can be quite enlightening, because it makes you think concretely about what is valuable to the player and why — and this concrete knowledge will put you in control of the balance of your game.
+  """
+  """
+  # Lens #29: The Lens of Chance
+  To use this lens focus on the parts of your game that involve randomness and risk, keeping in mind that those two things are not the same.
+
+  Ask yourself these questions:
+
+  - What in my game is truly random? What parts just feel random?
+  - Does the randomness give the players positive feelings of excitement and challenge, or does it give them negative feelings of hopelessness and lack of control?
+  - Would changing my probability distribution curves improve my game?
+  - Do players have the opportunity to take interesting risks in the game?
+  - What is the relationship between chance and skill in my game? Are there ways I can make random elements feel more like the exercise of a skill? Are there ways I can make exercising skills feel more like risk-taking?
+
+  Risk and randomness are like spices. A game without any hint of them can be completely bland, but put in too much and they overwhelm everything else. But get them just right, and they bring out the flavor of everything else in your game. Unfortunately, using them in your game is not as simple as sprinkling them on top. You must look into your game to see where elements of risk and randomness naturally arise, and then decide how you can best tame them to do your bidding. Don’t fall into the trap of thinking that elements of chance only occur around die rolls or randomly generated numbers. On the contrary, you can find them wherever a player encounters the unknown.
+  """
+  """
+  # Lens #30: The Lens of Fairness
+  To use the Lens of Fairness, think carefully about the game from each player’s point of view. Taking into account each player’s skill level, find a way to give each player a chance of winning that each will consider to be fair.
+
+  Ask yourself these questions:
+
+  - Should my game be symmetrical? Why?
+  - Should my game be asymmetrical? Why?
+  - Which is more important: that my game is a reliable measure of who has the most skill, or that it provide an interesting challenge to all players?
+  - If I want players of different skill levels to play together, what means will I use to make the game interesting and challenging for everyone?
+
+  Fairness can be a slippery subject. There are some cases where one side has an advantage over the other, and the game still seems fair. Sometimes this is so that players of unequal skill can play together, but there can be other reasons. In the game Alien vs. Predator, for example, it is generally recognized that in multiplayer mode, Predators have a significant advantage over the Aliens. Players do not consider it to be unfair, however, because it is in keeping with the Alien vs. Predator story world, and they accept that if they play as an Alien, they will be at a disadvantage and will need to compensate for that with extra skill. It is a badge of pride among players to be able to win the game when playing as an Alien.
+  """
+  """
+  # Lens #31: The Lens of Challenge
+  Challenge is at the core of almost all gameplay. You could even say that a game is defined by its goals and its challenges. When examining the chal- lenges in your game, ask yourself these questions:
+
+  - What are the challenges in my game?
+  - Are they too easy, too hard, or just right?
+  - Can my challenges accommodate a wide variety of skill levels?
+  - How does the level of challenge increase as the player succeeds?
+  - Is there enough variety in the challenges?
+  - What is the maximum level of challenge in my game?
+  """
+  """
+  # Lens #32: The Lens of Meaningful Choices
+  When we make meaningful choices, it lets us feel like the things we do matter. To use this lens, ask yourself these questions:
+
+  - What choices am I asking the player to make?
+  - Are they meaningful? How?
+  - Am I giving the player the right number of choices? Would more make them feel more powerful? Would less make the game clearer?
+  - Are there any dominant strategies in my game?
+  """
+  """
+  # Lens #33: The Lens of Triangularity
+  Giving a player the choice to play it safe for a low reward, or to take a risk for a big reward is a great way to make your game interesting and exciting. To use the Lens of Triangularity, ask yourself these questions:
+
+  - Do I have triangularity now? If not, how can I get it?
+  - Is my attempt at triangularity balanced? That is, are the rewards commensurate with the risks?
+
+  Once you start looking for triangularity in games, you will see it everywhere. A dull, monotonous game can quickly become exciting and rewarding when you add a dash of triangularity.
+  """
+  """
+  # Lens #34: The Lens of Skill vs. Chance
+  To help determine how to balance skill and chance in your game, ask yourself these questions:
+
+  - Are my players here to be judged (skill), or to take risks (chance)?
+  - Skill tends to be more serious than chance: Is my game serious or casual?
+  - Are parts of my game tedious? If so, will adding elements of chance enliven them?
+  - Do parts of my game feel too random? If so, will replacing elements of chance with elements of skill or strategy make the players feel more in control?
+  """
+  """
+  # Lens #35: The Lens of Head and Hands
+  Yogi Berra once said “Baseball is 90% mental. The other half is physical.” To make sure your game has a more realistic balance of mental and physical ele- ments, use the Lens of Head and Hands. Ask yourself these questions:
+
+  - Are my players looking for mindless action, or an intellectual challenge?
+  - Would adding more places that involve puzzle-solving in my game make it more interesting?
+  - Are there places where the player can relax their brain, and just play the game without thinking?
+  - Can I give the player a choice — either succeed by exercising a high level of dexterity, or by finding a clever strategy that works with a minimum of physical skill?
+  - If “1” means all physical, and “10” means all mental, what number would my game get?
+  - This lens works particularly well when used in conjunction with Lens #16: Lens of the Player.
+  """
+  """
+  # Lens #36: The Lens of Competition
+  Determining who is most skilled at something is a basic human urge. Games of competition can satisfy that urge. Use this lens to be sure your competitive game makes people want to win it. Ask yourself these questions:
+
+  - Does my game give a fair measurement of player skill?
+  - Do people want to win my game? Why?
+  - Is winning this game something people can be proud of? Why?
+  - Can novices meaningfully compete at my game?
+  - Can experts meaningfully compete at my game?
+  - Can experts generally be sure they will defeat novices?
+  """
+  """
+  # Lens #37: The Lens of Cooperation
+  Collaborating and succeeding as a team is a special pleasure that can create lasting social bonds. Use this lens to study the cooperative aspects of your game. Ask these questions:
+
+  - Cooperation requires communication. Do my players have enough opportu- nity to communicate? How could communication be enhanced?
+  - Are my players friends already, or are they strangers? If they are strangers, can I help them break the ice?
+  - Is there synergy (2 + 2 = 5) or antergy (2 + 2 = 3)when the players work together? Why?
+  - Do all the players have the same role, or do they have special jobs?
+  - Cooperation is greatly enhanced when there is no way an individual can do a task alone. Does my game have tasks like that?
+  - Tasks that force communication inspire cooperation. Do any of my tasks force communication?
+  """
+  """
+  # Lens #38: The Lens of Competition vs. Cooperation
+  Balancing competition and cooperation can be done in many interesting ways. Use this lens to decide whether they are balanced properly in your game. Ask these questions:
+
+  - If “1” is Competition and “10” is Cooperation, what number should my game get?
+  - Can I give players a choice whether to play cooperatively or competitively?
+  - Does my audience prefer competition, cooperation, or a mix?
+  - Is team competition something that makes sense for my game? Is my game more fun with team competition, or with solo competition?
+  """
+  """
+  # Lens #39: The Lens of Time
+  It is said that “timing is everything.” Our goal as designers is to create experi- ences, and experiences are easily spoiled when they are too short or too long. Ask these questions to make yours just the right length:
+
+  - What is it that determines the length of my gameplay activities?
+  - Are my players frustrated because the game ends too early? How can I change that?
+  - Are my players bored because the game goes on for too long? How can I change that?
+  - Setting a time limit can make gameplay more exciting. Is it a good idea for my game?
+  - Would a hierarchy of time structures help my game? That is, several short rounds that together comprise a larger round? Timing can be very difficult to get right, but it can make or break a game. Often, it makes sense to follow the old vaudevillian adage of “Leave ’em want- ing more.”
+  """
+  """
+  # Lens #40: The Lens of Reward
+  Everyone likes to be told they are doing a good job. Ask these questions to determine if your game is giving out the right rewards in the right amounts at the right times:
+
+  - What rewards is my game giving out now? Can it give out others as well?
+  - Are players excited when they get rewards in my game, or are they bored by them? Why?
+  - Getting a reward you don’t understand is like getting no reward at all. Do my players understand the rewards they are getting?
+  - Are the rewards my game gives out too regular? Can they be given out in a more variable way?
+  - How are my rewards related to one another? Is there a way that they could be better connected?
+  - How are my rewards building? Too fast, too slow, or just right? Balancing rewards is different for every game. Not only does a designer have to worry about giving out the right ones, but giving them at the right times in the right amounts. This can only be determined through trial and error — even then, it probably won’t be right for everyone. When trying to balance rewards, it is hard to be perfect — you often have to settle for “good enough.”
+  """
+  """
+  # Lens #41: The Lens of Punishment
+  Punishment must be used delicately, since after all, players are in a game of their own free will. Balanced appropriately, it will give everything in your game more meaning, and players will have a real sense of pride when they succeed at your game. To examine the punishment in your game, ask yourself these questions:
+
+  - What are the punishments in my game?
+  - Why am I punishing the players? What do I hope to achieve by it?
+  - Do my punishments seem fair to the players? Why or why not?
+  - Is there a way to turn these punishments into rewards and get the same, or a better effect?
+  - Are my strong punishments balanced against commensurately strong rewards?
+  """
+  """
+  # Lens #42: The Lens of Simplicity/Complexity
+  Striking the right balance between simplicity and complexity is difficult and must be done for the right reasons. Use this lens to help your game become one in which meaningful complexity arises out of a simple system. Ask your- self these questions:
+
+  - What elements of innate complexity do I have in my game?
+  - Is there a way this innate complexity could be turned into emergent complexity?
+  - Do elements of emergent complexity arise from my game? If not, why not?
+  - Are there elements of my game that are too simple?
+  """
+  """
+  # Lens #43: The Lens of Elegance
+  Most “classic games” are considered to be masterpieces of elegance. Use this lens to make your game as elegant as possible. Ask yourself these questions:
+
+  ● What are the elements of my game?
+  ● What are the purposes of each element? Count these up to give the element an “elegance rating.”
+  ● For elements with only one or two purposes, can some of these be com- bined into each other, or removed altogether?
+  ● For elements with several purposes, is it possible for them to take on even more?
+  """
+  """
+  # Lens #44: The Lens of Character
+  Elegance and character are opposites. They are like miniature versions of sim- plicity and complexity, and must be kept in balance. To make sure your game has lovable, defining quirks, ask yourself these questions:
+
+  ● Is there anything strange in my game that players talk about excitedly?
+  ● Does my game have funny qualities that make it unique?
+  ● Does my game have flaws that players like?
+  """
+  """
+  # Lens #45: The Lens of Imagination
+  All games have some element of imagination and some element of connection to reality. Use this lens to help find the balance between detail and imagina- tion. Ask yourself these questions:
+
+  ● What must the player understand to play my game?
+  ● Can some element of imagination help them understand that better?
+  ● What high-quality, realistic details can we provide in this game?
+  ● What details would be low quality if we provided them? Can imagination fill the gap instead?
+  ● Can I give details that the imagination will be able to reuse again and again?
+  ● What details I provide inspire imagination?
+  ● What details I provide stifle imagination?
+  """
+  """
+  # Lens #46: The Lens of Economy
+  Giving a game an economy can give it surprising depth and a life all its own. But like all living things, it can be difficult to control. Use this lens to keep your economy in balance:
+
+  ● How can my players earn money? Should there be other ways?
+  ● What can my players buy? Why?
+  ● Is money too easy to get? Too hard? How can I change this?
+  ● Are choices about earning and spending meaningful ones?
+  ● Is a universal currency a good idea in my game, or should there be special- ized currencies?
+  """
+  """
+  # Lens #47: The Lens of Balance
+  There are many types of game balance, and each is important. However, it is easy to get lost in the details and forget the big picture. Use this simple lens to get out of the mire, and ask yourself the only important question:
+
+  ● Does my game feel right? Why or why not?
+  """
+  """
+  # Lens #48: The Lens of Accessibility
+  When you present a puzzle to players (or a game of any kind), they should be able to clearly visualize what their first few steps would be. Ask yourself these questions:
+
+  ● How will players know how to begin solving my puzzle, or playing my game? Do I need to explain it, or is it self-evident?
+  ● Does my puzzle or game act like something they have seen before? If it does, how can I draw attention to that similarity. If it does not, how can I make them understand how it does behave?
+  ● Does my puzzle or game draw people in, and make them want to touch it and manipulate it? If not, how I can I change it so that it does?
+  """
+  """
+  # Lens #49: The Lens of Visible Progress
+  Players need to see that they are making progress when solving a difficult prob- lem. To make sure they are getting this feedback, ask yourself these questions:
+
+  ● What does it mean to make progress in my game or puzzle?
+  ● Is there enough progress in my game? Is there a way I can add more interim steps of progressive success?
+  ● What progress is visible, and what progress is hidden? Can I find a way to reveal what is hidden?
+  """
+  """
+  # Lens #50: The Lens of Parallelism
+  Parallelism in your puzzle brings parallel benefits to the player’s experience. To use this lens, ask yourself these questions:
+
+  ● Are there bottlenecks in my design where players are unable to proceed if they cannot solve a particular challenge? If so, can I add parallel challenges for a player to work on when this challenge stumps them?
+  ● If parallel challenges are too similar, the parallelism offers little benefit. Are my parallel challenges different enough from each other to give players the benefit of variety?
+  ● Can my parallel challenges be connected somehow? Is there a way that making progress on one can make it easier to solve the others?
+  """
 ]
