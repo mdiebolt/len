@@ -2,35 +2,37 @@
 @import "compass"
 
 body
+<<<<<<< HEAD
   background: #909090
+=======
+  background: rgba(0,0,0,.2)
+>>>>>>> f9f37faa98a8bdeb50e809251a3e72e2cd6f0458
   padding: 2em 0
   text-align: center
-  font-family: sans-serif
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+  font-size: 14px
+  line-height: 1.5em
 
 h1
+<<<<<<< HEAD
   color: #eee
   font-weight: bold
   font-size: 32px
   letter-spacing: -1px
+=======
+  color: rgba(0, 0, 0, .5)
+  font-weight: 300
+  font-size: 1.8em
+>>>>>>> f9f37faa98a8bdeb50e809251a3e72e2cd6f0458
   text-transform: uppercase
   text-shadow: 0 1px 0 rgba(0, 0, 0, .5)
   margin: 0
 
-.doc
-  font-size: 14px
-  margin: 0
-  &:before,
-  &:after
-    opacity: .2
-    padding: 6px
-    font-style: normal
-    position: relative
-    content: "•"
-  a
-    color: rgba(0, 0, 0, 0.3)
-    &:hover
-      color: #666
+blockquote
+  color: #555
+  font-style: italic
 
+<<<<<<< HEAD
 .len_text
   color: #eee
   overflow: auto
@@ -44,19 +46,46 @@ h1
   ul
     text-align: left
 
+=======
+$len-diameter: 51em
+>>>>>>> f9f37faa98a8bdeb50e809251a3e72e2cd6f0458
 .len
   +box-sizing(border-box)
 
   background: url(/images/mono.png) no-repeat
   display: inline-block
+<<<<<<< HEAD
   position: fixed
   right: 100px
   top: 20px
   height: 1900px
   width: 700px
 
+=======
+  background-color: rgba(229, 242, 255, 0.4)
+  +box-shadow(0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 5px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -8px 20px rgba(0,0,0,0.3))
+  padding: 6em
+  padding-top: 5em
+  position: relative
+  height: $len-diameter
+  width: $len-diameter
+>>>>>>> f9f37faa98a8bdeb50e809251a3e72e2cd6f0458
   ul
     text-align: left
+  h1
+    color: rgba(24, 66, 126, 0.9)
+    line-height: 1.4em
+    padding: 0 2em
+  &::after
+    content: ""
+    width: 66%
+    height: 50%
+    position: absolute
+    left: 4%
+    bottom: 6%
+    +background-image(linear-gradient(rgba(232,232,232,.7) 1%, rgba(255,255,255,0) 40%))
+    +border-radius(50%)
+    +rotate(-150deg)
 
 .stache
   background: url(/images/stache.png) no-repeat

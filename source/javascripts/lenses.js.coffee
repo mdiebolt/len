@@ -98,8 +98,10 @@ window.lenses = [
   """
   # Lens #11: The Lens of Infinite Inspiration
   > When you know how to listen, everybody is the guru.
-  > – Ram Dass To you use this lens, stop looking at your game, and stop looking at games
-  > like it. Instead, look everywhere else.
+  > – Ram Dass
+
+  To you use this lens, stop looking at your game, and stop looking at games
+  like it. Instead, look everywhere else.
 
   Ask yourself these questions:
 
