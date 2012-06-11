@@ -3,15 +3,11 @@ title: Lenses of game design
 ---
 
 .len
-%button.new_lens New Lens
-%button.longest Longest
-%button.quoted Quoted
+.len_text
+.stache
 
 :coffeescript
   $ ->
-    window.longest = window.lenses[25]
-    window.quoted = window.lenses[10]
-
     randomLens = ->
       currentLens = $('.len').html()
 
@@ -20,12 +16,15 @@ title: Lenses of game design
       if currentLens is len
         randomLens()
       else
-        $('.len').html(len)
+        $('.len_text').html(len)
 
-    $('.new_lens').on 'click', randomLens
-    $('.longest').on 'click', ->
-      $('.len').html(markdown.toHTML(window.longest))
-    $('.quoted').on 'click', ->
-      $('.len').html(markdown.toHTML(window.quoted))
+    $('.stache').on 'mousedown', ->
+      $(this).addClass('active')
+
+    $('.stache').on 'mouseup', ->
+      $(this).removeClass('active')
+
+    $('.stache').on 'click', ->
+      randomLens()
 
     randomLens()
