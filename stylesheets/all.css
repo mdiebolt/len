@@ -44,7 +44,7 @@ blockquote {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: url(images/mono.png) no-repeat;
+  background: url(/len/images/mono.png) no-repeat;
   display: inline-block;
   position: fixed;
   right: 100px;
@@ -86,7 +86,7 @@ blockquote {
 
 /* line 68, all.css.sass */
 .stache {
-  background: url(images/stache.png) no-repeat;
+  background: url(/len/images/stache.png) no-repeat;
   cursor: pointer;
   height: 251px;
   margin: auto;
