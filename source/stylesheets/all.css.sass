@@ -31,10 +31,11 @@ body
 
   background: url(../images/mono.png) no-repeat
   display: inline-block
-  height: 1900px
+  height: 650px
   width: 700px
   padding: 120px 80px
   padding-right: 160px
+  margin-right: -90px // Offset the monocle string, i.e. put the glass in the middle
 
   ul
     text-align: left
@@ -51,17 +52,13 @@ body
     +rotate(-150deg) */
 
 .stache
-  background: url(../images/stache.png) no-repeat
   cursor: pointer
-  height: 251px
+  height: 186px
   margin: auto
-  position: fixed
-  width: 812px
-  bottom: 20px
-  left: 0
-  right: 0
+  margin-top: -130px // Temporary hack until real positioning is done
+  width: 600px
 
-  &.active
+  &:active
     +opacity(0.85)
 
 .new_lens
