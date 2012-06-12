@@ -9,52 +9,37 @@ body
   font-size: 14px
   line-height: 1.5em
 
-h1
-  color: #eee
-  font-weight: bold
-  font-size: 32px
-  letter-spacing: -1px
-  font-weight: 300
-  font-size: 1.8em
-  text-transform: uppercase
-  text-shadow: 0 1px 0 rgba(0, 0, 0, .5)
-  margin: 0
-
-blockquote
-  color: #555
-  font-style: italic
-
 .len_text
   color: #eee
   overflow: auto
-  z-index: -1
-  width: 450px
-  right: 260px
-  top: 150px
   height: 330px
-  position: absolute
-
+  h1
+    color: rgba(24, 66, 126, 0.9)
+    font-size: 1.8em
+    font-weight: 300
+    line-height: 1.4em
+    padding: 0 2em
+    text-transform: uppercase
   ul
     text-align: left
+  blockquote
+    color: #555
+    font-style: italic
 
 .len
   +box-sizing(border-box)
 
-  background: url(/len/images/mono.png) no-repeat
+  background: url(../images/mono.png) no-repeat
   display: inline-block
-  position: fixed
-  right: 100px
-  top: 20px
   height: 1900px
   width: 700px
+  padding: 120px 80px
+  padding-right: 160px
 
   ul
     text-align: left
-  h1
-    color: rgba(24, 66, 126, 0.9)
-    line-height: 1.4em
-    padding: 0 2em
-  &::after
+
+  /* &::after
     content: ""
     width: 66%
     height: 50%
@@ -63,10 +48,10 @@ blockquote
     bottom: 6%
     +background-image(linear-gradient(rgba(232,232,232,.7) 1%, rgba(255,255,255,0) 40%))
     +border-radius(50%)
-    +rotate(-150deg)
+    +rotate(-150deg) */
 
 .stache
-  background: url(/len/images/stache.png) no-repeat
+  background: url(../images/stache.png) no-repeat
   cursor: pointer
   height: 251px
   margin: auto
