@@ -3,16 +3,50 @@
 
 body
   background: #909090
-  padding: 2em 0
+  padding: 0
+  padding-bottom: 2em
   text-align: center
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
   font-size: 14px
   line-height: 1.5em
 
+.len_container
+  +box-sizing(border-box)
+  display: inline-block
+  height: 100%
+  width: 100%
+  min-height: 700px
+  padding-top: 2em // Not working currently
+  overflow: hidden
+  text-align: center
+
+.len
+  height: 100%
+  width: 700px
+  min-height: 700px
+  margin-right: -90px // Offset the monocle string, i.e. put the glass in the middle
+  ul
+    text-align: left
+  // SVG Len styling
+  .string_loop
+    fill: #ccc
+  .glass
+    fill: rgba(255,255,255,0.2)
+  .inner_reflection
+    fill: rgba(255,255,255,0.2)
+  .glare
+    fill: rgba(255,255,255,0.2)
+
 .len_text
   color: #eee
+  display: inline-block
   overflow: auto
+  width: 500px
   height: 330px
+  position: absolute
+  top: 150px
+  left: 50%
+  margin-left: -250px // Half of the width to make it centered
   h1
     color: rgba(24, 66, 126, 0.9)
     font-size: 1.8em
@@ -26,54 +60,13 @@ body
     color: #555
     font-style: italic
 
-.len
-  +box-sizing(border-box)
-
-  background: url(../images/mono.png) no-repeat
-  display: inline-block
-  height: 650px
-  width: 700px
-  padding: 120px 80px
-  padding-right: 160px
-  margin-right: -90px // Offset the monocle string, i.e. put the glass in the middle
-
-  ul
-    text-align: left
-
-  /* &::after
-    content: ""
-    width: 66%
-    height: 50%
-    position: absolute
-    left: 4%
-    bottom: 6%
-    +background-image(linear-gradient(rgba(232,232,232,.7) 1%, rgba(255,255,255,0) 40%))
-    +border-radius(50%)
-    +rotate(-150deg) */
-
 .stache
   cursor: pointer
+  position: relative
+  width: 600px
   height: 186px
   margin: auto
-  margin-top: -130px // Temporary hack until real positioning is done
-  width: 600px
+  margin-top: -190px // Bug here
 
   &:active
     +opacity(0.85)
-
-.new_lens
-  background-color: #05c
-  +background-image(linear-gradient(#08C, #05C))
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25)
-  +border-radius(4px)
-  +box-shadow(inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05))
-  color: white
-  display: block
-  font-weight: bold
-  margin: 0 auto
-  margin-top: 2em
-  padding: .5em 1em
-  &:hover
-    +background-image(linear-gradient(darken(#08C, 5%), #05C))
-  &:active
-    +box-shadow(inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05))
