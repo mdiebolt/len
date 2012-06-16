@@ -82,3 +82,13 @@ body {
   .stache:active {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
     opacity: 0.85; }
+
+/* line 74, all.css.sass */
+.buy {
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  left: 20px; }
+  /* line 80, all.css.sass */
+  .buy:hover, .buy:active, .buy:visited {
+    color: white; }
